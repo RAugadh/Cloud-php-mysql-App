@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css?family=Work Sans");
+/* background-color: #ff6464; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+form .btn {
+  background-color: #ff6464;
+  border: #000;
+  border-style: dashed;
+}
+.main {
+  min-height: 100vh;
+  background: linear-gradient(to right top, #f37878, #f59c9c);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Work Sans";
+}
+
+.glass {
+  background: white;
+  min-height: 80vh;
+  width: 90%;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 2em;
+}
+
+.nav-glass {
+  width: 90%;
+  min-height: 10vh;
+}
+.container-fluid img {
+  width: 12%;
+}
+.btn > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.sec-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2em;
+}
+.hero-prof .hero-cont {
+  padding: 1em;
+}
+table {
+  margin: 3em;
+}
+tr > td {
+  border: rgb(75, 73, 73);
+  padding: 0.6em 0.4em;
+  border-style: dashed;
+}
+tr > th {
+  border: rgb(75, 73, 73);
+  padding: 0.6em 0.4em;
+  border-style: dashed;
+}
+.hero-cont h1 {
+  font-weight: 300;
+  line-height: 3rem;
+}
+.hero-cont h2 {
+  font-size: 1.5rem;
+}
+.hero-cont * {
+  line-height: 1.6rem;
+  padding-bottom: 0.7em;
+  font-weight: 500;
+}
+.hero-cont button {
+  margin-top: 3em;
+}
+.hero-prof {
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 2rem;
+}
+
+.footer {
+  min-height: 20vh;
+}
+.footer h3 {
+  text-align: center;
+}
+
+.footer-info {
+  text-align: center;
+  padding: 2em;
+}
+.footer-info a {
+  text-decoration: none;
+  color: black;
+}
+@media (min-width: 1024px) {
+  .glass {
+    width: 70%;
+  }
+  .nav-glass {
+    width: 70%;
+  }
+}
+@media (min-width: 768px) {
+  .sec-1 {
+    flex-direction: row;
+  }
+  .hidden {
+    display: none;
+  }
+  li > a {
+    text-decoration: none;
+  }
+  .skil-sec ul {
+    flex-direction: row;
+  }
+}
